@@ -1,4 +1,4 @@
-import { ReactComponent as WavesOpacityFooter } from '../wavesOpacityFooter.svg';
+import { ReactComponent as WavesFooter } from '../wavesFooter.svg';
 import { ReactComponent as Github } from '../github.svg';
 import { ReactComponent as Instagram } from '../instagram.svg';
 import { ReactComponent as Whatsapp } from '../whatsapp.svg';
@@ -9,11 +9,11 @@ function Footer() {
 	return (
 		<>
 			<footer className="relative">
-				<div className="custom-shape-divider-bottom-1707101128 rotate-180 mt-5">
-					<WavesOpacityFooter />
+				<div className="rotate-180 mt-5">
+					<WavesFooter />
 				</div>
 				<div className="bg-slate-900 text-violet-200 flex flex-col justify-center items-center pt-12 pb-8">
-					<h1 className="text-3xl pb-6">Contact Me!</h1>
+					<h1 className="text-3xl pb-6 pt-12">Contact Me!</h1>
 					<div className="flex gap-4">
 						<a
 							href="https://github.com/Feerse"
