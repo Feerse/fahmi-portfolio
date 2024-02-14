@@ -1,0 +1,64 @@
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: gainsboro;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.custom-shape-divider-bottom-1707017585 {
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1707017585 svg {
+	position: relative;
+	display: block;
+	width: calc(145% + 1.3px);
+	height: 390px;
+}
+
+.custom-shape-divider-bottom-1707017585 .shape-fill {
+	fill: #f5f3ff;
+}
+
+/* Waves Footer */
+.custom-shape-divider-bottom-1707101128 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1707101128 svg {
+	position: relative;
+	display: block;
+	width: calc(180% + 1.3px);
+	height: 150px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1707101128 .shape-fill {
+	fill: #0f172a;
+}
