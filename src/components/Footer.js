@@ -9,7 +9,7 @@ function Footer() {
 	return (
 		<>
 			<footer className="relative">
-				<div className="rotate-180 mt-5">
+				<div className="rotate-180 absolute w-full h-full bottom-80">
 					<WavesFooter />
 				</div>
 				<div className="bg-slate-900 text-violet-200 flex flex-col justify-center items-center pt-12 pb-8">
