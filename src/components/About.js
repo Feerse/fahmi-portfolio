@@ -1,4 +1,4 @@
-import about from '../assets/about.jpg';
+// import about from '../assets/about.jpg';
 
 function About() {
 	return (
@@ -15,12 +15,12 @@ function About() {
 				<div
 					data-aos="fade-up"
 					className="flex flex-row-reverse gap-8 max-lg:block">
-					<img
+					{/* <img
 						src={about}
 						alt="writer's face"
 						className="w-1/2 h-96 object-cover rounded-2xl shadow-lg mx-auto max-lg:w-56 max-lg:h-56 max-lg:mb-8"
-					/>
-					<p className="w-full max-lg:text-justify">
+					/> */}
+					<p className="w-full text-justify">
 						Halo! saya Fahmi, seorang pelajar berusia 16 tahun dari
 						Kota Samarinda, Kalimantan Timur. Ketertarikan saya yang
 						besar terhadap dunia teknologi dan internet mendorong
