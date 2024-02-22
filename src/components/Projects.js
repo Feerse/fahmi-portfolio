@@ -7,7 +7,7 @@ import todoList from '../assets/todo-list.JPG';
 function Projects() {
 	return (
 		<section
-			className="flex justify-center items-center py-12"
+			className="flex justify-center items-center py-12 mb-32"
 			id="projects">
 			<div
 				data-aos="fade-up"
