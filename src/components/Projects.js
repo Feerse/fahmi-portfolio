@@ -2,6 +2,7 @@ import Project from "./Project";
 import passwordGenerator from "../assets/password-generator.JPG";
 import samarindaku from "../assets/samarindaku.JPG";
 import todoList from "../assets/todo-list.JPG";
+import bukuTamuSekolah from "../assets/buku-tamu-sekolah-tambah.JPG";
 
 function Projects() {
   return (
@@ -56,7 +57,19 @@ function Projects() {
             hrefRepo="https://github.com/Feerse/todo-list-app"
             isLive={false}
           />
+          <Project
+            isPortrait={false}
+            isReverse={true}
+            img={bukuTamuSekolah}
+            title="Buku Tamu Sekolah"
+            about="Buku Tamu Sekolah adalah sebuah aplikasi berbasis website yang berguna untuk mencatat tamu yang datang beserta keperluannya. Aplikasi ini menggunakan fungsi CRUD dan sudah terhubung dengan database. Aplikasi ini dibuat menggunakan bahasa PHP dan framework Tailwind CSS"
+            hrefRepo="https://github.com/Feerse/buku-tamu-sekolah"
+            isLive={false}
+          />
         </div>
+        <h1 data-aos="fade-up" className="text-xl my-36 text-gray-500">
+          More Projects Coming Soon...
+        </h1>
       </div>
     </section>
   );
